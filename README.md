@@ -10,3 +10,5 @@ Below picture shows the user_login_page.
 #### Usage:
 
 Be at the same directory with the project files. In terminal run 'python app.py'. After running go to localhost:5000 and use the page. credentials.json contains mysql username, password and database name. Change credentials file yourself. functions.py file contains some functions and main app.py file calls some functions from that file. And the last file templates contain only one login.html file. login.html file contains the html information about the home page.
+
+Note : The system uses members table in database. So in the main py file it checks the table, and if table is not exists it automatically creates the table.
